@@ -1,0 +1,22 @@
+h2 {
+    text-align: center;
+
+  }
+
+.details {
+    text-align: center;
+}
+
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=mNum] {
+    width: 51%;
+}
+
+input[type=eMail] {
+    width: 51%;
+}
