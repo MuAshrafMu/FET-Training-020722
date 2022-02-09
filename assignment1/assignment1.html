@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Assignment1</title>
+    <style> 
+        h1{
+            text-align: center;
+        }
+        #total{
+            text-align: center;
+            
+        }
+       
+        
+        input{
+            outline-color: aqua;
+            
+        }
+        #register{
+            width: 50%;
+            background-color: aqua;
+            color:white
+            
+        }
+        #signIn{
+            width: 50%;
+            background-color: chartreuse;
+            color:white
+        }
+        ::placeholder{
+            color: gray;
+        }
+        a.Terms-and-Condition{
+            color:aqua;
+        }
+        #rcorners{
+            background-color: aqua;
+            color:white
+        }
+        #FirstName{
+            
+            width: 25%;
+            height: 15%;
+        }
+        #LastName{
+            height: 10%;
+            width: 25%;
+        }
+        #MobileNo{
+            height: 10%;
+            width: 50%;
+        }
+        #EmailAddress{
+            height: 10%;
+            width: 50%;
+        }
+        #password{
+            height: 10%;
+            width: 25%;
+        }
+        #confirmPassword{
+            height: 10%;
+            width: 25%;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div id="total">
+        <h1> Sign up </h1>
+        <div>
+            <input type="text" id= "FirstName" name="firstName" placeholder="First Name">
+            <input type="text" id = "LastName" name="lastName" placeholder="Last Name">
+        </div>
+        <div>
+            <input type="tel" id = "MobileNo" name="MobileNo" placeholder="Mobile No">
+        </div>
+        <div>
+            <input type="email" id = "EmailAddress" name="EmailAddress" placeholder="Email Address">
+        </div>
+        <div>
+            <input type="password" id = "password" name="password" placeholder="Password">
+            <input type="password" id = "confirmPassword" name="confirmPassword" placeholder="Confirm Password">
+        </div>
+        <div>
+            <input type="checkbox" id = "IAgree" name="I Agree" value="Agree"> I Agree 
+            <p1> By cliking <p2 id="rcorners">Register</p2>, you agree to the <a href="https://www.google.com/" class = "Terms-and-Condition">Terms and Conditions</a> set out by this site, Including our Cookie Use</p1>
+        </div>
+        <div>
+            <input class="register" type="button" value="Register">
+            <input class="signIn" type="button" value="Sign In">  
+
+        </div>
+    </div>
+</body>
+    
