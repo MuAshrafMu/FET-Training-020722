@@ -8,26 +8,42 @@
 </head>
 
 <body>
-    <h1>Sign up</h1>
+    <div class="centreTitle">
+        <h1>Sign up</h1>
+    </div>
     <form>
-        <div class="leftItem"><input type="text" id="fname" name="fname" placeholder="First name"></div>
-
-        <div class="rightItem"><input type="text" id="lname" placeholder="Last Name"></div>
-        <input type="text" id="mobileNum" placeholder="Mobile Num"><br>
-        <input type="email" id="emailAddr" placeholder="Email Address"><br>
-
-        <div class="leftItem"><input type="text" id="passwd" placeholder="Password"></div>
-        <div class="rightItem"><input type="text" id="confirmPasswd" placeholder="Confirm Password"></div>
-        <div class="leftItem"><input type="checkbox" id="agreeTermAndCond"><label for="agreeTermAndCond">I Agree</label>
+        <div class="formStyle">
+            <div class="doubleInputs">
+                <div class="leftItem"><input type="text" id="fname" name="fname" placeholder="First name"></div>
+                <div class="rightItem"><input type="text" id="lname" placeholder="Last Name"></div>
+            </div>
+            <div class="singleInput"><input type="text" id="mobileNum" placeholder="Mobile Num"></div>
+            <div class="singleInput"><input type="email" id="emailAddr" placeholder="Email Address"></div>
+            <div class="doubleInputs">
+                <div class="leftItem"><input type="text" id="passwd" placeholder="Password"></div>
+                <div class="rightItem"><input type="text" id="confirmPasswd" placeholder="Confirm Password"></div>
+            </div>
+            <div class="condTable">
+                <table>
+                    <tr>
+                        <th id="textGroup"><input type="checkbox" id="agreeTermAndCond"><label for="agreeTermAndCond">I Agree</label></th>
+                        <th>
+                            <p id="condText">By clicking <span id="regBox">Register</span>, you agree to the <a href="">Terms and Conditions</a> set out by this site,
+                                including our
+                                Cookie
+                                Use
+                            </p>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="doubleInputs">
+                <div class="leftItem"><button class="regButton">Register</button></div>
+                <div class="rightItem"><button class="signinButton">Sign in</button></div>
+                
+                
+            </div>
         </div>
-        <div class="rightItem">
-            <p>By clicking Register, you agree to the Terms and Conditions set out by this site, including our Cookie
-                Use
-            </p>
-        </div>
-
-        <input type="submit" value="Register">
-        <button>Sign in</button>
     </form>
 </body>
 

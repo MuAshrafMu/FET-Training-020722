@@ -1,12 +1,70 @@
+.singleInput input{
+    border: 1px solid gray;
+    width:94%;
+    height:60px;
+    border-radius: 5px;
+    padding: 0 1.25%;
+    margin: 0.5%;
+}
+.doubleInputs input{
+    border: 1px solid gray;
+    width:94%;
+    height:60px;
+    border-radius: 5px;
+    padding: 0 1.25%;
+    margin: 0.5%;
+}
 .leftItem{
-    width: 50%; float:left  
+    width: 48%; float:left  
 }
 .rightItem{
-    width: 50%; float:right 
+    width: 47%; float:right 
 }
-.boxItem{
-
+#regBox{
+    background-color: skyblue;
+    border-radius: 4px;
+    padding: 1% 2%;
+    font-size: 13px;
+    color: white;
 }
 .centreTitle{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input:focus {
+    outline: none !important;
+    border: 1px solid blue;
+    box-shadow: 0 0 5px blue;
+}
+.formStyle{
+    width: 80%;
+    margin:auto;
+    padding: 30px;
+}
+.condTable{
+    width: 100%;
+    text-align: left;
+}
+.condTable #textGroup{
+    width:30%;
+}
+.condTable #condText{
+    width:70%;
+    
+}
+.doubleInputs button{
+    border: 0ch;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1%;
+    width: 98%;
+    height: 50px;
+}
+.regButton{
+    background-color:darkturquoise;
+}
+.signinButton{
+    background-color: chartreuse;
 }
