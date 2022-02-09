@@ -1,0 +1,104 @@
+h1.title {
+    text-align: center;
+}
+
+.inputform {
+    margin: auto;
+    width: 40%;
+    padding: 10px;
+    /*     border: 3px solid green;
+ */
+    /*     text-align: center;
+ */
+}
+
+.inputform div {
+    margin: auto;
+    width: 80%;
+    /*     border: 1px solid yellow;
+ */
+}
+
+.oneinput input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 1.25%;
+    margin: 0.5%;
+    width: 96.5%;
+    height: 50px;
+}
+
+.twoinput input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 0 2.5%;
+    margin: 1%;
+    width: 93%;
+    height: 50px;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 10px skyblue;
+}
+
+div.left {
+    float: left;
+    width: 48.5%;
+}
+
+div.right {
+    float: right;
+    width: 48.5%;
+}
+
+@media screen and (max-width:1080px) {
+    div.left,
+    div.right {
+        float: none;
+        width: 100%;
+    }
+}
+
+.check {
+    padding-top: 50px;
+    width: 80%;
+    /*     border: 2px solid red; */
+    text-align: left;
+}
+
+.check #checkbox {
+    width: 30%;
+}
+
+.check #checktext {
+    width: 70%;
+}
+
+.twoinput button {
+    border: 0ch;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 1%;
+    width: 98%;
+    height: 50px;
+}
+
+.twoinput button#register {
+    background-color: skyblue;
+}
+
+.twoinput button#signin {
+    background-color: yellowgreen;
+}
+
+#regbut {
+    background-color: skyblue;
+    border-radius: 4px;
+    padding: 1% 2%;
+    font-size: 13px;
+    color: white;
+}
