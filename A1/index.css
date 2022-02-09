@@ -1,0 +1,12 @@
+.leftItem{
+    width: 50%; float:left  
+}
+.rightItem{
+    width: 50%; float:right 
+}
+.boxItem{
+
+}
+.centreTitle{
+    text-align: center;
+}
