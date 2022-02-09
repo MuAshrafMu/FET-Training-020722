@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src ="script.js"></script>
+    <title>Login</title>
+</head>
+ 
+<body>
+     
+
+<div class="container">
+    <div onsubmit="return validateForm()" class="form">
+        <h1>Sign Up</h1>
+        
+        <input  id="firstName" type="text" placeholder="First Name" name="firstName" required>
+
+        
+        <input id="lastName" type="text" placeholder="Last Name" name="lastName" required>
+
+        
+        <input id="phone" type="tel" placeholder="Mobile No." name="phone" required>
+
+        <input id="email" type="email" placeholder="Email Address" name="email" required>
+
+        <input id="password" type="password" placeholder="Password" name="password" required>
+        <input id="confirmPassword" type="password" placeholder="Confirm Password" name="confirmPassword" required>
+
+
+    <label>
+        <input id="checkbox" type="checkbox" checked="unchecked" name="checkbox" required> Accept
+    </label>
+            <p>    
+            By clicking Register, you agree to the Terms and Conditions sat out by this site,
+            including our Cookie Use.
+            </p>
+
+        <button type="submit" id="register" class="registerButton">Register</button>
+        <button  id="signIn"  class="signInButton">Sign In</button>
+
+        </div><!--form-->
+</div><!--container-->
+    
+    
+</body>
+</html>

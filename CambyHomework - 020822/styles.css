@@ -1,0 +1,84 @@
+:root{
+    --background-color:#3e5277;
+    --font-color:#cad3e2;
+    --button-background-color:#1b2c4d;
+    --font-family:Georgia, 'Times New Roman', Times, serif;
+    --button-hover-background:#4e7cd6;
+    --text-shadow: -1px -1px 0 #0b2649, 1px -1px 0 #0b2649, -1px 1px 0 #0b2649, 1px 1px 0 #0b2649;
+ 
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:var(--background-color);
+    color:var(--font-color);
+    text-shadow:var(--text-shadow);
+    
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.form{
+    height:30vh;
+    width:90vw;
+}
+   
+    .form h1{
+        text-align:center;
+    }
+   
+    input[type=text] {
+        width:40vw;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+
+    input[type=tel], 
+    input[type=email], 
+    input[type=password]{
+        width:90vw;
+        padding-top:3px;
+        padding-bottom:3px;
+    }
+
+    .form p{
+        font-size:.65rem;
+    }
+
+    .form button{
+        background-color:var(--button-background-color);
+        color:var(--font-color);
+        width:40%;
+        height:15%;
+        font-size:2rem;
+        border-radius:5%;
+    }
+     .form button:hover {
+         background-color:var(--button-hover-background);
+     }
+@media screen and (orientation:landscape){
+    .form{
+        height:70vh;
+        width:50vw;
+    }
+        .form button{
+            height:10%;
+            font-size:1.5rem;
+        } 
+    input[type=tel], 
+    input[type=email], 
+    input[type=password]{
+        width:50vw;
+    }
+}
