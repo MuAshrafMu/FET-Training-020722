@@ -1,0 +1,123 @@
+html {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding-top: 10%;
+}
+
+#main-holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+#signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"]::placeholder {
+  color: #3a3a3a;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #1f72bb;
+  box-shadow: 0 0 3px #728da5;
+  outline-offset: 5px;
+  outline: none;
+}
+
+input[type="text"] {
+  border: 2px solid #afadad69;
+  border-radius: 5px;
+  text-align: left;
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.name-form-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 10px;
+  width: 100%;
+}
+
+.name-form-field input {
+  width: 50%;
+}
+
+.signup-form-field {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 94%;
+}
+
+.signup-form-field input {
+  width: 100%;
+}
+
+.pass-form-field {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 10px;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.pass-form-field input {
+  width: 50%;
+}
+
+.agree-checkbox {
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: left;
+  width: 100%;
+  margin: 10px;
+}
+
+label {
+  font: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+  width: 100%;
+}
+
+#submit-button {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #026cd5;
+  cursor: pointer;
+  outline: none;
+}
+
+#signin-button {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #02d55a;
+  cursor: pointer;
+  outline: none;
+}

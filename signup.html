@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sign Up</title>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+
+    <body>
+        <main id="main-holder">
+            <h1 id="signup-header">Sign Up</h1>
+
+            <form id="signup-form">
+                <div class="name-form-field">
+                    <input type="text" name="firstname" id="firstname-field" placeholder="First Name"/>
+                    <input type="text" name="lastname" id="lastname-field" placeholder="Last Name"/>
+                </div>
+
+                <div class="signup-form-field">
+                    <input type="text" name="mobilenum" id="mobilenum-field" placeholder="Mobile No."/>
+                    <input type="text" name="email" id="email-field" placeholder="Email Address"/>
+                </div>
+
+                <div class="pass-form-field">
+                    <input type="text" name="password" id="password-field" class="pass-form-field" placeholder="Password"/>
+                    <input type="text" name="cpassword" id="cpassword-field" class="pass-form-field" placeholder="Confirm Password"/>
+                </div>
+
+                <div class="agree-checkbox">
+                    <input type="checkbox" name="agreebox" id="agree-checkbox" /> 
+                    <label for="agreebox">I Agree</label>
+                </div>
+
+                <div class="buttons">
+                    <input type="submit" value="Register" id="submit-button" />
+                    <input type="button" value="Sign In" id="signin-button"/>
+                </div>
+                
+            </form>
+            
+        </main>
+    </body>
+</html>
