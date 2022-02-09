@@ -1,0 +1,36 @@
+
+h1 {
+    text-align: center;
+    font:  monospace;
+    font-size: 40px;
+}
+h2 {
+    text-align: center;
+    font:  monospace;
+    font-size: 30px;
+
+}
+.description{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+
+}
+.center{
+    text-align: center;
+    
+}
+
+.button{
+    text-align: center;
+    background-color: rgb(255, 115, 64);
+    color: white;
+    border-radius: 10px;
+    border: none;  
+    height: 35px;
+    width: 100px; 
+}
+
+.gif{
+    text-align: center;
+}
