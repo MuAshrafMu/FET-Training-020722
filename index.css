@@ -1,0 +1,140 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#myContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    width: 100%;
+    min-width: 280px;
+    padding: 20px;
+}
+
+#signUp {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+#agreement {
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 10px;
+}
+
+#agree {
+    min-width: 90px; 
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+}
+
+#check {
+    width:auto; 
+    height: auto;
+}
+
+#checkText {
+    font-weight: bold; 
+    margin-left: 5px;
+}
+
+input, select {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border-color: #EBEBEB;
+    padding-left: 10px;
+    font-size: 15px;
+    border-style: inset;
+    border-width: 2px;
+    
+}
+
+select {
+    width: 35%;
+}
+
+input:focus, select:focus {
+    box-shadow: 0 0 10px dodgerblue;
+    /* border: none; */
+}
+
+.twinInputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 4%;
+}
+
+#register {
+    background-color: #428BCA;
+}
+#signIn {
+    background-color: #5CB85C;
+}
+
+.twinInputs:first-child, .twinInputs:last-child {
+    width: 50%;
+    height: 40px;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    width: 50%;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+code {
+    background-color: #428BCA;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 0 7px;
+    border: 1px solid #428BCA;
+    border-radius: 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #9AC1E3;
+}
+
+@media only screen and (min-width: 550px) {
+    #myContainer {
+        width: 550px;
+        min-width: 500px;
+        padding: 0;
+    }
+    .twinInputs {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 4%;
+    }
+
+    #agreement {
+        flex-direction: row;
+        column-gap: 20px;       
+    }
+}

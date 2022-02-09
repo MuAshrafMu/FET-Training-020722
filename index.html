@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form action="" id="myContainer">
+        <div id="signUp">Sign Up</div>
+        <div class="twinInputs">
+            <input name="firstname" type="text" placeholder="First Name" required>
+            <input name="lastname" type="text" placeholder="Last Name" required>
+        </div>
+        <div class="twinInputs">
+            <select id="country" name="countrycode">
+                <option>Country Code</option>
+                <option value="+44">UK +44</option>
+                <option value="+1">USA +1</option>
+                <option value="+1">CA +1</option>
+            </select>
+            <input name="phone" type="tel" pattern="[0-9]{5,10}" placeholder="Mobile No.">
+        </div>
+        <div>
+            <input name="email" type="email" placeholder="Email Address" required>
+        </div>
+        <div class="twinInputs">
+            <input name="password" type="password" placeholder="Password" required>
+            <input type="password" placeholder="Confirm Password" required>
+        </div>
+        <div id="agreement">
+            <div id="agree">
+                <input name="agree" type="checkbox" name="agree" id="check" required>
+                <div id="checkText">I Agree</div>
+            </div>
+            <div>By clicking <code>Register</code>, you agree to the <a href="#">Terms and Conditions</a> set
+                out by
+                this site, including our Cookie Use.</div>
+        </div>
+        <div id="buttons">
+            <button type="submit" id="register">Register</button>
+            <button type="button" id="signIn">Sign In</button>
+        </div>
+    </form>
+</body>
+
+</html>
