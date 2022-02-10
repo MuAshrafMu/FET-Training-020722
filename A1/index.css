@@ -1,6 +1,6 @@
 .singleInput input{
     border: 1px solid gray;
-    width:94%;
+    width:95%;
     height:60px;
     border-radius: 5px;
     padding: 0 1.25%;
@@ -49,7 +49,7 @@ input:focus {
     width:30%;
 }
 .condTable #condText{
-    width:70%;
+    width:60%;
     
 }
 .doubleInputs button{
