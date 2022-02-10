@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    font-family: Arial, "Times New Roman", Times, serif;
+    font-size: 3vw;
+    box-sizing: border-box;
+}
+#buttons, #checkandterms {
+    display: flex;
+    justify-content:space-between;
+}
+input, p, label{
+    padding: 1vw 2.4vh;
+    margin: 0
+}
+input[type=button] {
+    font-size: 1.5vw;
+    margin: 0.25vw 0.125vh;
+    cursor: pointer;
+    color: white;
+}
+input[type=checkbox] {
+    width: 1em;
+    height: 1em;
+}
+input[type=text] {
+    min-width: 0;
+    margin: 0.25vw 0.125vh;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5vw
+}
+mark {
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+#checked {
+    font-size: 1.5vw;
+}
+#register {
+    background-color: rgb(0, 110, 255);
+}
+#signin {
+    background-color: rgb(0, 255, 13);
+}
+#agree, [for="agree"] {
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+#mobile, #email {
+    width: 98%;
+    font-size: 2.0vw;
+}
+#fname, #lname, #password, #passwordConfirm, #register, #signin {
+    width: 49%;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2.0vw;
+}
