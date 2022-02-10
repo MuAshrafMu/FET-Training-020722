@@ -1,13 +1,11 @@
-*{box-sizing: border-box}
 *{
-    margin:0;
-    padding:0;
-    border:0;
+    box-sizing: border-box;
 }
 
 h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
+    margin-bottom: 5px;
 }
 
 body{
@@ -33,9 +31,17 @@ button{
     background-color: rgb(73, 151, 240);
 }
 
+.registerbtn:hover{
+    background-color: blue;
+}
+
 .signinbtn{
     background-color: green;
     margin-left: 30px;
+}
+
+.signinbtn:hover{
+    background-color: lightseagreen;
 }
 
 .registerbtn, .signinbtn{
@@ -49,15 +55,25 @@ span.regi{
 }
 
 .container{
-    margin:20px 0 20px 0;
+    margin:1em;
     padding: 20px;
     border: none;
+    
 }
 
-input[type=text],input[type=password]{
-    width: 40%;
-    margin: 10px;
+.signup{
+    margin: 5px;
     padding:16px;
+    border:none;
+    
+} 
+
+
+
+input[type=text],input[type=password]{
+    margin: 0;
+    padding: 16px;
+    width:40%;
     border-radius: 4px;
     border:1px solid lightgray;
     
@@ -65,8 +81,7 @@ input[type=text],input[type=password]{
 
 input[type=number],input[type=email]{
     border:1px solid lightgray;
-    margin: 10px;
     padding:16px;
     border-radius: 4px;
-    width:83%;
+    width:80%;
 }
