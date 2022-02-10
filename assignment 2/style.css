@@ -1,36 +1,46 @@
-
-h1 {
-    text-align: center;
-    font:  monospace;
-    font-size: 40px;
-}
-h2 {
-    text-align: center;
-    font:  monospace;
-    font-size: 30px;
-
-}
-.description{
-    text-align: center;
-    font-size: 30px;
-    padding: 10px;
-
-}
-.center{
-    text-align: center;
-    
+body {
+    background-color: black;
+    background-image: url("mobile-0819.jpg");
+    background-repeat: no-repeat;
 }
 
-.button{
-    text-align: center;
-    background-color: rgb(255, 115, 64);
+.Box{
+
+    background-color: black;
+    border-radius: 15px;   
+    display: flex;
+    width: 400px;
+    height: 80px;
+    border: 2px solid grey;
+    margin-left: 100px;
+    margin-top: 350px
+}
+
+.picture img{
+    height: 70px;
+    padding: 5px;
+}
+
+.text{
+    width: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+.textZero{
+
     color: white;
-    border-radius: 10px;
-    border: none;  
-    height: 35px;
-    width: 100px; 
+    font-family: Arial, Helvetica, sans-serif;;
+}
+.textOne{
+
+    color:blue;
 }
 
-.gif{
-    text-align: center;
+.Gif img{
+
+    height: 60px;
+    padding: 10px;
 }
+
