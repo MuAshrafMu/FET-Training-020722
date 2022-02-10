@@ -1,0 +1,76 @@
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Black background */
+.background {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+/* Phone image in the middle */
+.image {
+    position: fixed;
+    bottom: 50%;
+    right: 50%; 
+    transform: translate(50%, 40%);
+}
+
+/* Flex container for the poster, text and gif */
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: black;
+    border: 2px solid rgb(136, 136, 136);
+    border-radius: 1em;
+    height: 25%;
+    width: 80%;
+    bottom: 20%;
+    right: 50%; 
+    transform: translate(50%, 50%);
+}
+
+/* Poster */
+#pic {
+    display: flex;
+    height: 90%;
+    width: 90%;
+    padding: 7px;
+    margin-left: 4px;
+    
+}
+
+/* Stranger things text */
+#text {
+    display: flex;
+    color: rgb(228, 228, 228);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin-top: 20%;
+    margin-left: -30%;
+}
+
+/* Downloading text */
+#text1 {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    margin-top: 5%;
+    margin-left: -30%;
+    color: rgb(60, 102, 218);
+}
+
+/* Downloading gif */
+#gif {
+    display: flex;
+    height: 5em;
+    width: 5em;
+    bottom: 50%;
+    right: 10%; 
+    transform: translate(-10%, 20%);
+}
