@@ -5,6 +5,41 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                padding: 5px;
+                border: 2px solid black;
+            }
+            .row_1 {
+                display: flex;
+                justify-content: space-between;
+            }
+            .row_1 div {
+                border: 2px solid black;
+                width: 50px;
+                text-align: center;
+                padding: 2px;
+                margin-bottom: 20px;
+            }
+            .row_2 {
+                display: flex;
+                justify-content: flex-end;
+                border: 2px solid black;
+            }
+        </style>
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <div class="row_1">
+                <div style="background-color: red">red</div>
+                <div style="background-color: blue">blue</div>
+                <div style="background-color: yellow">yellow</div>
+            </div>
+            <div class="row_2">
+                <div style="background-color: black">black</div>
+            </div>
+        </div>
+    </body>
 </html>
