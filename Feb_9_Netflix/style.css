@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+}
+
+.stranger-things {
+  position: fixed;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 40%);
+}
+
+
+.boxshot-container {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  border: 2px solid rgb(136, 136, 136);
+  border-radius: 1em;
+  height: 25%;
+  width: 80%;
+  bottom: 20%;
+  right: 50%;
+  background-color: black;
+  transform: translate(50%, 50%);
+}
+
+.text {
+  display: flex;
+  flex-flow: wrap;
+  padding-left: 10px;
+  align-content: center;
+}
+
+#stranger-pic {
+  display: flex;
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  max-height: 300px;
+  padding: 15px;
+}
+
+#title {
+  display: flex;
+  color: white;
+  padding-bottom: 5px;
+}
+
+#download-text {
+  color: #0071eb;
+}
+
+#gif {
+  display: flex;
+  padding: 20px;
+}
