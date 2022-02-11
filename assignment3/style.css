@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+}
+
+.row1{
+    display: flex;
+    border: none;
+    margin-left: 10%;
+    color: white;
+    font-family: Arial;
+    position: relative;
+}
+
+.hcol1{
+    margin: 20px;
+    
+}
+
+.hcol2{
+    margin: 20px;
+    
+}
+
+.hcol3{
+    margin: 20px;
+}
+
+.hcol4{
+    margin: 20px;
+}
+
+.title{
+    background-color: #c6bfbf;
+    height: 135px;
+    font-family: Arial;
+}
+
+h1{
+    margin-left: 10%;
+}
+
+.text1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.context{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 30em;
+    
+}
+
+.row2{
+    display: flex;
+    border: none;
+    font-family: Arial;
+    
+}
+
+
+.text3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: #0b4d14;
+
+}
+
+.row3{
+    display: flex;
+    color: white;
+    border: none;
+    margin-left: 10%;
+    font-family: Arial;
+}
+
+.fcol1{
+    margin: 20px;
+    
+}
+
+.fcol2{
+    margin: 20px;
+    
+}
+
+.fcol3{
+    margin: 20px;
+    
+}
+
+.fcol4{
+    margin-left: 20em;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+.fcol5{
+    margin: 20px;
+    
+}
+
+.fcol6{
+    margin: 20px;
+    
+}
+
+
+
+
