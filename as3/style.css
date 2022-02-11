@@ -1,0 +1,49 @@
+.header{
+    position: sticky;
+    height: 50px;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ a{
+    color: white;
+}
+.intro{
+    position: sticky;
+    height: max-content;
+    top:50px;
+    right: 0;
+    left: 0;
+    background-color: #c6bfbf;
+    padding-bottom: 10px;
+    
+}
+.footer{
+    position: fixed;
+    height: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #0b4d14; 
+    color: white;
+    text-align: center;
+    margin: 0px auto 0px;
+    padding: 0px 0px;
+}
+h1{
+    color: black;
+    font-weight: bold;
+}
+#more{
+    color: rgb(22, 81, 170);
+    text-decoration: underline;
+}
+.details > .container > div{
+    padding-top: 2%;
+    padding-right: 3%;
+    width: 33%;
+    float:left;
+}
