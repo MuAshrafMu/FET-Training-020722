@@ -1,0 +1,148 @@
+/* CSS reset */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* top navigation menu list  */
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+
+/* menu options */
+.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+/* Change the link color on hover */
+.topnav li a:hover {
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+}
+
+.header {
+    margin-left: 12rem;
+    margin-right: 12rem;
+}
+
+/* Highlights area below the navigation bar */
+.highlights {
+    background-color: #c6bfbf;
+}
+
+/* setting padding and margin for the text */
+.highlights h1,p {
+    padding-top: 2rem;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding-bottom: 2rem;
+}
+
+.highlights p {
+    padding-top: 0;
+}
+
+/* settin color to blue for Know more link */
+.highlights a {
+    color: rgb(25, 82, 189);
+}
+
+/* Bottom navigation menu */
+.bottomnav {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: #0b4d14;
+}
+
+.bottomnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* left div for the left sided menu options */
+.left {
+    margin-left: 10rem;
+}
+
+.left li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* right div for the right sided menu options */
+.right {
+    margin-right: 10rem;
+    float: right;
+    
+}
+
+.right li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.bottomnav li a:hover {
+    background-color: #163d1b;
+    cursor: pointer;
+}
+
+/* div for the main content. display set as flex in row direction */
+.content {
+    display: flex;
+}
+
+/* first paragraph */
+.content div:first-child {
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    padding-left: 14px;
+    margin-right: -7.5%;
+    align-items: stretch;
+}
+
+/* second paragraph */
+.content div:nth-child(2) {    
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    align-items: stretch;
+    margin-right: -7.5%;
+    margin-left: -7.5%;
+}
+
+/* third paragraph */
+.content div:last-child {    
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    margin-left: -7.5%;
+    padding-right: 14px;
+}
+
