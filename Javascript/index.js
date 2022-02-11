@@ -279,36 +279,44 @@
 // immutable data; mutable data
 
 // // ~~~~~~interview question~~~~~~~~~~~~
-// const first = [
-//     { userid: 2, name: 'Velen' },
-//     { userid: 56, name: 'Illidan' },
-//     { userid: 23, name: 'Muradin' },
-//     { userid: 12, name: 'Sylvanas' },
-//     { userid: 44, name: 'Cenarius' },
-//     { userid: 4, name: 'Gul\'Dan' }
-// ];
-// const second = [
-//     { userid: 2, role: 'Mage' },
-//     { userid: 4, role: 'Worlock' },
-//     { userid: 56, role: 'Demon Hunter' },
-//     { userid: 66, role: 'Druid' },
-//     { userid: 87, role: 'Shaman' },
-//     { userid: 12, role: 'Hunter' },
-// ];
+const first = [
+    { userid: 2, name: 'Velen' },
+    { userid: 56, name: 'Illidan' },
+    { userid: 23, name: 'Muradin' },
+    { userid: 12, name: 'Sylvanas' },
+    { userid: 44, name: 'Cenarius' },
+    { userid: 4, name: 'Gul\'Dan' }
+];
+const second = [
+    { userid: 2, role: 'Mage' },
+    { userid: 4, role: 'Worlock' },
+    { userid: 56, role: 'Demon Hunter' },
+    { userid: 66, role: 'Druid' },
+    { userid: 87, role: 'Shaman' },
+    { userid: 12, role: 'Hunter' },
+];
+const third = [
+    { userid: 2 },
+    { userid: 4 },
+    { userid: 56 },
+    { userid: 66 },
+    { userid: 87 },
+    { userid: 12 },
+];
 
-// function solution(fir, sec, thd) {
-//     const arr = [...sec, ...fir, ...thd];
-//     const map = {};
-//     arr.forEach(ele => {
-//         map[ele.userid] = {
-//             ...{userid: null, name: null, role: null},
-//             ...map[ele.userid],
-//             ...ele
-//         }
-//     });
-//     return Object.values(map);
-// }
+function solution(fir, sec, thd) {
+    const arr = [...sec, ...fir];
+    const map = {}
+    arr.forEach(ele => {
+        map[ele.userid] = {
+            userid: ele.userid
+        }
+    });
+    return Object.values(map);
+}
 
+// { userid: 2, name: 'Velen'},
+// {  userid: 87, name: Null}
 // [
 //     {},
 //     {}
@@ -320,7 +328,7 @@
 //     56: { userid: 56, name: 'Illidan', role: 'Demon Hunter' },
 //     ...
 // }
-// console.log(solution(first, second));
+console.log(solution(first, second));
 
 // [
 //     { userid: 2, name: 'Velen', role: 'Mage' },
