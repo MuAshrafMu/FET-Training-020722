@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    background-color: #000;
+    width: 100%;
+    height: 50px;
+}
+
+.header ul,
+.footer ul {
+    margin-left: 14%;
+    list-style-type: none;
+    float: left;
+}
+
+.header li,
+.footer li {
+    float: left;
+    /* margin-left: 1em; */
+}
+
+.footer {
+    position: fixed;
+    bottom: 0%;
+    background-color: #0b4d14;
+    height: 50px;
+    width: 100%;
+}
+
+.footer ul {
+    margin-left: 10%;
+    width: 80%;
+    /*  border: 2px solid black; */
+}
+
+
+/* .footer ul:last-child {
+    margin-right: 8em;
+    float: right;
+} */
+
+.footer ul .rli {
+    float: right;
+}
+
+.header a,
+.footer a {
+    display: block;
+    width: 6em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 1em 0;
+}
+
+.header a:hover,
+.footer a:hover {
+    background-color: red;
+}
+
+.container {
+    position: absolute;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.row-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #c6bfbf;
+    padding: 2em 12%;
+}
+
+.row-2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+
+.row-2 div {
+    /* width: 30em; */
+    margin: 1em 2em;
+}
+
+@media screen and (max-width:720px) {
+    .row-2 {
+        display: flex;
+        flex-direction: column;
+    }
+}
