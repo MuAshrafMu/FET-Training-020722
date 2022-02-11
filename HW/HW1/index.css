@@ -95,8 +95,6 @@ input:focus{
     background-color: var(--color-gray);
 }
 
-
-
  @media (max-width:700px){
     .row{
         flex-direction: column;
